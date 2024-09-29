@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import { spacing } from "../styles/tokens";
 
-export const Container = styled.header`
-  margin: ${spacing.sp032};
-  margin-left: ${spacing.sp064};
-  margin-right: ${spacing.sp064};
+export const Container = styled.div`
+  margin: 1.3rem 4rem 0;
+  height: 100%;
+`;
+
+export const InnerContainer = styled.div`
   display: flex;
   gap: 2rem;
 `;

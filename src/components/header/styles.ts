@@ -1,22 +1,28 @@
 import styled, { keyframes } from "styled-components";
-import { font, spacing } from "../../styles/tokens";
+import { colors, font, spacing } from "../../styles/tokens";
 
 const scroll = keyframes`
   0% {
-    transform: translateX(-100%);
+   transform: translateX(-50%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(0%);
+
   }
 `;
 
 export const Container = styled.header`
-  padding: ${spacing.sp016};
+  margin-bottom: ${spacing.sp064};
 `;
 
 export const Title = styled.h1`
   font-weight: normal;
   font-size: ${font.fn024};
+
+  a {
+    text-decoration: none;
+    color: ${colors.black};
+  }
 `;
 
 export const InnerContainer = styled.div`
@@ -28,10 +34,17 @@ export const InnerContainer = styled.div`
 export const Link = styled.a`
   text-decoration: none;
   font-size: ${font.fn020};
+
+  &:visited,
+  :active {
+    color: ${colors.black};
+  }
 `;
 
 export const Star = styled.p`
-  margin: ${spacing.sp010} 0 ${spacing.sp016};
+  font-size: ${font.fn024};
+  line-height: 1;
+  margin: 0 0 ${spacing.sp010};
 `;
 
 export const Banner = styled.div`
@@ -46,4 +59,8 @@ export const BannerText = styled.p`
   display: inline-block;
   animation: ${scroll} 20s linear infinite;
   font-size: ${font.fn020};
+
+  span {
+    padding: 0 ${spacing.sp032};
+  }
 `;

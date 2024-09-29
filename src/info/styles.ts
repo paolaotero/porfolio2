@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import { spacing } from "../styles/tokens";
+import {font } from "../styles/tokens";
 
 export const Container = styled.div`
   width: 80%;
-  height: 80vh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -26,9 +25,9 @@ export const Img = styled.div`
 `
 
 export const Title = styled.div`
-  font-size: 20px;
-`
+  font-size: ${font.fn020};
+`;
 
 export const Text = styled.div`
-  font-size: 14px;
-`
+  font-size: ${font.fn014};
+`;

@@ -12,16 +12,42 @@ export function Header() {
   return (
     <Container>
       <InnerContainer>
-        <Title>Paola Otero</Title>
+        <Title>
+          <a href="/">Paola Otero</a>
+        </Title>
 
-        <Link href="/info">info</Link>
+        <Link href="/about">about</Link>
       </InnerContainer>
 
       <Star>&#9733;</Star>
 
       <Banner>
         <BannerText>
-          diseño gráfico
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
+          <span>diseño gráfico</span>
         </BannerText>
       </Banner>
     </Container>

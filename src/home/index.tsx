@@ -1,16 +1,16 @@
 import { Header } from "../components/header";
 import { Sidebar } from "../components/sidebar";
 import { Info } from "../info";
-import { Container } from "./styles";
+import { Container, InnerContainer } from "./styles";
 
 export function Home() {
   return (
-    <>
+    <Container>
       <Header />
-      <Container>
+      <InnerContainer>
         <Sidebar />
         <Info />
-      </Container>
-    </>
+      </InnerContainer>
+    </Container>
   );
 }

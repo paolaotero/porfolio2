@@ -5,6 +5,9 @@ export const px2rems = (px: number): string => `${px / DEFAULT_FONT_SIZE}rem`;
 export const spacing = {
   sp010: px2rems(10),
   sp016: px2rems(16),
+  sp024: px2rems(24),
+  sp032: px2rems(32),
+  sp064: px2rems(64),
 } as const;
 
 export const font = {

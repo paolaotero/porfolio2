@@ -1,15 +1,13 @@
 import styled from "styled-components";
 import { font, spacing } from "../styles/tokens";
 
-export const Container = styled.div`
-  margin: 1.3rem 4rem 0;
-`;
+export const Container = styled.div``;
 
 export const InnerContainer = styled.div`
-  margin-left: auto;
   width: 40%;
   display: flex;
   gap: ${spacing.sp064};
+  margin: ${spacing.sp064} 4rem 0 auto;
 `;
 
 export const Text = styled.p``;

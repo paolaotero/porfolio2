@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html {
-  height: 100%;
-}
-
 body {
-  cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
   margin: 0;
   font-family: "Courier Prime", monospace;
   -webkit-font-smoothing: antialiased;

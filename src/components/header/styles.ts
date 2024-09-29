@@ -12,7 +12,7 @@ const scroll = keyframes`
 `;
 
 export const Container = styled.header`
-  margin-bottom: ${spacing.sp064};
+  margin: 1.3rem ${spacing.sp064} 0;
 `;
 
 export const Title = styled.h1`

@@ -9,7 +9,6 @@ export const Container = styled.div`
   gap: 2rem;
   overflow-y: auto;
   scrollbar-width: none;
-  margin-top: auto;
 `;
 
 export const Card = styled.div`

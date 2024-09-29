@@ -1,13 +1,15 @@
 import styled from "styled-components";
-import {font } from "../styles/tokens";
+import { font } from "../styles/tokens";
 
 export const Container = styled.div`
   width: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   overflow-y: auto;
   scrollbar-width: none;
+  margin-top: auto;
 `;
 
 export const Card = styled.div`
@@ -22,7 +24,7 @@ export const Img = styled.div`
   height: 300px;
   background-color: lightgray;
   display: flex;
-`
+`;
 
 export const Title = styled.div`
   font-size: ${font.fn020};

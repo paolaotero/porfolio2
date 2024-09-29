@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { spacing } from "../../styles/tokens";
+import { spacing } from "../styles/tokens";
 
 export const Container = styled.header`
-  padding: ${spacing.sp016};
+  margin: ${spacing.sp032};
 `;

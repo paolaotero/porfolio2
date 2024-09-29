@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import { spacing } from "../styles/tokens";
 
 export const Container = styled.div`
   width: 80%;
-  height: 80vh;
+  height: 90%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   overflow-y: auto;
   scrollbar-width: none;
+  margin-top: auto;
 `;
 
 export const Card = styled.div`

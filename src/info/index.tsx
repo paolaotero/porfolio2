@@ -6,37 +6,37 @@ export function Info() {
     {
       key: "diseño-editorial",
       title: "diseño editorial",
-      img: '',
+      images: [''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
     {
       key: "carteleria",
       title: "cartelería",
-      img: '',
+      images: ['',''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
     {
       key: "tipografia",
       title: "tipografía",
-      img: '',
+      images: [''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
     {
       key: "animacion",
       title: "motion graphics / animación",
-      img: '',
+      images: [''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
     {
       key: "identidad",
       title: "identidad",
-      img: '',
+      images: [''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
     {
       key: "fotografia",
       title: "fotografía",
-      img: '',
+      images: [''],
       description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati excepturi? Molestiae laborum incidunt unde? Molestias minus incidunt quo error ad quos! Dolores atque, est consequuntur iure veritatis consectetur optio nisi odit.'
     },
   ]
@@ -47,7 +47,10 @@ export function Info() {
         options.map((op) =>
         <Card
           id={op.key}>
-          <Img />
+          
+          {op.images.map((_img) =>
+            <Img /> 
+          )}
 
           <Title>
             {op.title}

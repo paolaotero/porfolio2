@@ -6,7 +6,6 @@ export const Container = styled.div`
   flex-direction: column;
   gap: ${spacing.sp024};
   width: 40%;
-  height: 80vh;
 `;
 
 export const Option = styled.div`

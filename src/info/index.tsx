@@ -7,7 +7,7 @@ export function Info() {
       key: "diseño-editorial",
       title: "diseño editorial",
       images: [''],
-      description:'hola'
+      description:'epa'
     },
     {
       key: "carteleria",
